@@ -1,5 +1,6 @@
 @import "variables";
 @import "mynavbar";
+@import "hero";
 
 *,
 *::before,
@@ -9,6 +10,7 @@
     box-sizing: border-box;
 }
 
+// desabilita algumas margens e paddings do bootstrap.
 ol,
 ul,
 dl { 
@@ -16,13 +18,11 @@ dl {
     padding: 0;
 }
 
-
-
-    html,
-    body {
-        overflow-x: hidden !important;
-        font-family: 'Roboto', Helvetica, Arial, sans-serif;
-        font-size: .9em;
-        font-weight: 300;
-        line-height: 1.6;
-    }
+html,
+body {
+    overflow-x: hidden !important;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+    line-height: 1.6;
+}
