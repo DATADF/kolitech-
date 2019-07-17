@@ -1,6 +1,6 @@
 @import "variables";
 
-.container-nav {
+.container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
@@ -18,11 +18,16 @@
     background: $branco;
 
     .logo {
-        font-size: 2em;
-        font-weight: 600;
+        display: flex;
+        align-items: center;
+
+        a {
+            margin: 0;
+            padding: 0;
+        }
 
         img {
-            max-width: 50%;
+            max-width: 70%;
         }
     }
 
